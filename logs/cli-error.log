@@ -1,0 +1,39 @@
+2020-12-03 10:48:43 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakedb.users' doesn't exist in D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 142
+Stack Trace:
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\ORM\Table.php:509
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\ORM\Table.php:649
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:335
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- D:\projects\CakePHP\cakeapp-v1\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakedb.users' doesn't exist in D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Connection.php:313
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:140
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\ORM\Table.php:509
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\ORM\Table.php:649
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:335
+- D:\projects\CakePHP\cakeapp-v1\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- D:\projects\CakePHP\cakeapp-v1\bin\cake.php:12
+
+
+
